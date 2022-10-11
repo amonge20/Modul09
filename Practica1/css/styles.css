@@ -1,0 +1,139 @@
+﻿/*Primer quadre on ho ficarem tots els quadres següents dins d'aquest quadre*/
+.main {
+    border: 2px solid black;
+    align-items: center;
+    text-align: center; 
+    display: flexbox;
+}
+
+/*La primera capçalera on ficarem un quadre rectangular adalt de tot*/
+header {
+    border: 2px solid green;
+    text-align: center;
+    display: flexbox;
+
+}
+
+/*Dins del quadre verd ficarem un altre quadre on dins del quadre nn'hi ha un titul i una descripció*/
+#borde1 {
+    text-align: center;
+    border: gray 1px solid;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+/*Abaix del qudre verd fiquem un quadre blau on hi ficarem més quadrats*/
+.submain{
+    margin: 0px;
+    border: 2px solid blue;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5px;
+    display: flex;
+}
+
+/*Al costat del quadrat ficarem un menu on estara els 4 menus dins d'un quadre verdAmarillent*/
+#menu {
+    margin: 1%;
+    margin-top: 25px;
+    min-width: 11%;
+    margin-bottom: 1px;
+    border: #68fc23 2px solid;
+}
+
+/*Rectangle que funciona com si fos un botó pero no ho es*/
+#button {
+    border:  rgb(203, 231, 203) 2px solid;
+    text-align: left;
+    color: inherit;
+    margin-top: 20%;
+    margin-left: 9%;
+    margin-right: 2%;
+    padding: 5%;
+    width: 70%;
+}
+
+/*El quadre que n'hi ha dins del quadre blau submain*/
+#redcontainer {
+border: red 2px solid;
+margin: 1px;
+margin-top: 25px;
+margin-left: -15px;
+}
+
+/*Els 2 quadres que es divideixen*/
+.aside {
+    border: 2px solid blue;
+    margin: 2px;
+    padding: 2%;
+    margin-bottom: 4%;
+
+}
+
+/*Modificació del text d'adalt*/
+p.borde2 {
+    text-align: left;
+    color: gray;
+    border: green 1px solid;
+    margin-top: 10px;
+    font-size: 35px;
+}
+
+/*Modificació del text d'adalt*/
+p.borde3 {
+    text-align: left;
+    margin: 2%;
+    border: green 1px solid;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: -20px;
+    margin-bottom: 5px;
+    padding-left: 1px;
+    padding-right: 1px;
+    margin-inline: 1px;
+    line-height: 2;
+}
+
+/*El quadre on es fara sera en el segón quadre blau*/
+.bluelight {
+    border: rgb(113, 167, 228) 2px solid;
+    display: flex;
+}
+
+/*Farem un div de  quadres horinzontals amb les següents descripcions*/
+.flex-container > div {
+    border: rgb(255, 0, 179) 2px solid;
+    margin: 1%;
+    padding: 2%;
+    text-align: center;
+}
+
+/*El img, h3 i p. Es faria carreg dels 3 quadrats del anterior DIV*/
+img, h3, p {
+    border: green 1px solid;
+    margin: 1,5%;
+}
+
+/*El id de la imatge doncs seria el ordinador amb una mida gran per acabar de fer el quadre vermell*/
+#img {
+    border: 0; 
+    width: 100%;
+    margin: 0%;
+}
+
+/*I per acabar, el creador de la pagina web doncs que seria jo qui ha fet aquesta practica*/
+footer {
+    background-color: #babdb6;
+    background-size: 10px;
+    text-align: end;
+}
+
+/*Hi ficarem en negreta el nostre nom*/
+span {
+    font-weight: bold;
+}
+
+/*Ficarem tot el body del HTML en */
+body {
+    font-family: 'Nunito', sans-serif;
+}
